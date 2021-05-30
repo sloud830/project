@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./img/product.css">
+<body>
+    <div class="header">
+        <div id="logo" >
+          <a href="./index.html"><img src="./img/lmht.png" alt=""></a>
+        </div>        
+        <div id="temp">
+          <a href="./index.html">Trang chủ</a>
+          <a style="padding-left: 50px;" href="./naptien.html">Nạp tiền</a>
+        </div>
+       <div id="login">
+           <a href="./login.html">Đăng nhập</a>
+       </div>
+    
+    </div>
+    <div>
+        <img id="background" src="./img/bia-shop.png" alt="">
+    </div>
+    <button class="open-button" onclick="openForm()"><img id="sp-logo" src="./img/87749bc5d3fb7ddf5347e625e0a5bf17-support-agents-round-icon-by-vexels.png" alt=""></button>
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Support</h1>
+
+    <label for="msg"><b>Write your feedback</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<div><a href="./index.html"><button id="quaylai">Quay lại</button></a></div>
+<div id="skin">
+  
+</div>
+<div>
+  <button id="mua" onclick="myFunction()">
+    Mua
+  </button>
+</div>
+
+<script src="./produuct.js"></script>
+</body>
+</html>
